@@ -62,6 +62,11 @@ class Venue(Base):
     concerts = relationship('Concert', back_populates='venue')
     
     # getting all concerts for the venue
+    def get_concerts(self):
+        return self.concerts
+    
+    
+    # getting Bands that have played in venue
     def get_bands(self):
         return [concert.band for concert in self.concerts]
     
