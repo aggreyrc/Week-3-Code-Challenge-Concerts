@@ -35,7 +35,7 @@ To clone this project, run the following command in your terminal:
 
 2. Navigate to the project directory in the terminal
 
-    ```cd concert```
+        cd concert
 
 3. Install Dependencies
 Install the required Python packages using:
@@ -49,6 +49,7 @@ Run the seed script to populate the database with some sample data using Faker:
 
 6. Interact with the Database
 You can now run scripts like debug.py to interact with the database, or write your own scripts to explore the functionality.
-    ```python debug.py```
+
+        python debug.py
 
 
