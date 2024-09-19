@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed on your local machine:
     -SQLAlchemy library
 You can install SQLAlchemy via pip:
 
-    ```pip install SQLAlchemy```
+    pip install SQLAlchemy
 
 # Setup Instructions
 
@@ -45,7 +45,7 @@ Install the required Python packages using:
 5. Set Up the Database
 Run the seed script to populate the database with some sample data using Faker:
 
-        ```python seed.py```
+        python seed.py
 
 6. Interact with the Database
 You can now run scripts like debug.py to interact with the database, or write your own scripts to explore the functionality.
